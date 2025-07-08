@@ -39,12 +39,10 @@ html, body {
   width: calc(100vw * 6);
   height: 100vh;
   transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  overflow: hidden;
 }
 
 .slide {
   width: 100vw;
-  min-width: 100vw;
   height: 100vh;
   flex-shrink: 0;
   display: flex;
