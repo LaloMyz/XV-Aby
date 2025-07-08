@@ -16,6 +16,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #000;
+  width: 100%;
   height: 100%;
   overflow: hidden;
   font-family: 'Dancing Script', cursive;
@@ -27,7 +28,9 @@ html, body {
 }
 /* Contenedor principal */
 .carousel-container {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -38,6 +41,7 @@ html, body {
   display: flex;
   width: calc(100vw * 6);
   height: 100vh;
+  gap: 0;
   transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
