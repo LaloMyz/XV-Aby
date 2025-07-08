@@ -271,3 +271,12 @@ top: 50%;
   width: 100%;        /* ancho total de la ventana */
   height: 50%;        /* mitad de la altura de la ventana */
 }
+.boton-whatsapp {
+  /* Ajusta tamaño y posición como quieras */
+  top: 65%;
+  left: 50%;
+  width: 50%;
+  height: 10%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
